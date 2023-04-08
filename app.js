@@ -13,7 +13,7 @@ sign_in_btn.addEventListener("click", () => {
 const validCredentials = [
   { username: "geofreyonyango167@gmail.com", password: "montanaio", name: "Mr Oduor", subjects: ["Mathematics", "Science"] },
   { username: "director@jamiloschool", password: "G967785", name: "Director Lilian Omollo",subjects: [""] },
-  { username: "calvinochieng@jamiloschool", password: "X459689", name: "Calvin Muthoni", subjects: ["Biology", "Chemistry"] },
+  { username: "caren@jamiloschool", password: "z299y", name: "Clarance Jumba", subjects: [" and trainer of Drama", "social culture"] },
 ];
 
 const loginForm = document.querySelector(".sign-in-form");
@@ -55,7 +55,7 @@ loginForm.addEventListener("submit", (event) => {
     const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School`;
 
     alert(greeting);
-    window.location.href = "https://jamilo-school.github.io/Academicsnew/";
+    window.location.href = "This page is currently under development.kindly wait as you will be notified once its ready.Thank you";
   } else {
     alert("🎯 Access denied! You are trying to use unauthorized credentials. Please check and try again ");
   }
