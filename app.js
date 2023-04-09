@@ -52,7 +52,7 @@ loginForm.addEventListener("submit", (event) => {
       });
     }
 
-    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.Kindly note that  we won't able to direct you to the  site at the moments as its still under development.`;
+    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.Kindly note that  I won't be able to direct you to the  site at the moments as its still under development.`;
 
     alert(greeting);
     window.location.href = "www.google.com";
