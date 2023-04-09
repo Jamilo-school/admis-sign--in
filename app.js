@@ -52,10 +52,10 @@ loginForm.addEventListener("submit", (event) => {
       });
     }
 
-    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School`;
+    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.SKindly note that  we won't able to direct you to the  site at the moments as its still under development.`;
 
     alert(greeting);
-    window.location.href = "https://www.google.com/search?q=google+weather&oq=google+wea&aqs=chrome.0.0i131i433i512j69i57j0i512l4j69i60l2.7169j0j7&sourceid=chrome&ie=UTF-8";
+    window.location.href = "#";
   } else {
     alert("🎯Incorrect username or password");
   }
