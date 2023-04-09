@@ -52,10 +52,10 @@ loginForm.addEventListener("submit", (event) => {
       });
     }
 
-    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.Kindly note that  we won't be able to direct you to the  site at the moments as its still under development.`;
+    const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.`;
 
     alert(greeting);
-    window.location.href = "www.google.com";
+    window.location.href = "https://jamilo-school.github.io/admins-landing-page/";
   } else {
     alert("🎯Incorrect username or password");
   }
