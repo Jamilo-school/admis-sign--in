@@ -55,7 +55,7 @@ loginForm.addEventListener("submit", (event) => {
     const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School.SKindly note that  we won't able to direct you to the  site at the moments as its still under development.`;
 
     alert(greeting);
-    window.location.href = "#";
+    window.location.href = "www.google.com";
   } else {
     alert("🎯Incorrect username or password");
   }
