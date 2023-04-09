@@ -55,8 +55,8 @@ loginForm.addEventListener("submit", (event) => {
     const greeting = `${currentDay}, ${currentTime}. Welcome ${name}! ${subjects}. ${location ? location : ''} Jamilo School`;
 
     alert(greeting);
-    window.location.href = "This page is currently under development.kindly wait as you will be notified once its ready.Thank you";
+    window.location.href = "https://www.google.com/search?q=google+weather&oq=google+wea&aqs=chrome.0.0i131i433i512j69i57j0i512l4j69i60l2.7169j0j7&sourceid=chrome&ie=UTF-8";
   } else {
-    alert("🎯 Access denied! You are trying to use unauthorized credentials. Please check and try again ");
+    alert("🎯Incorrect username or password");
   }
 });

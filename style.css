@@ -291,6 +291,11 @@ form.sign-in-form {
 .container.sign-up-mode .right-panel {
   pointer-events: all;
 }
+
+marquee{
+  background-color: white;
+  color: rgb(22, 220, 213);
+}
 /* //////////////////////////////////////////////////////////// */
 
 
